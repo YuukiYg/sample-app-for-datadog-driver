@@ -7,4 +7,8 @@ public class MySystemException extends RuntimeException{
 	 */
 	private static final long serialVersionUID = 1L;
 
+	public MySystemException(String message) {
+		super(message);
+	}
+
 }

@@ -8,10 +8,12 @@ import lombok.Data;
 @AllArgsConstructor
 public class BlogicResult {
 	private String message;
-	private String time;
+	private String timeAtDatadogApp;
+	private String timeAtDriver;
 
 	public BlogicResult() {
 		message = "default";
-		time = "default";
+		timeAtDatadogApp = "default";
+		timeAtDriver = "default";
 	}
 }
